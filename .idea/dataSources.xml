@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="378285502">
+    <data-source source="LOCAL" name="DerbyCarsStore" uuid="0b29f95d-4064-4fd6-9ae4-70f42e350ac4">
+      <driver-ref>derby.embedded</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.apache.derby.jdbc.EmbeddedDriver</jdbc-driver>
+      <jdbc-url>jdbc:derby:$PROJECT_DIR$/CarsStoreDB;create=true</jdbc-url>
+      <libraries>
+        <library>
+          <url>file:///opt/java/jdk1.7.0_51/db/lib/derby.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="NewPersistenceUnit" uuid="65d7450b-b0f4-4255-98e2-b10a479b8ab8">
+      <jdbc-url>jdbc:derby:$PROJECT_DIR$/CarsStoreDB</jdbc-url>
+      <libraries>
+        <library>
+          <url>file://$MAVEN_REPOSITORY$/javax/xml/bind/jaxb-api/2.2.9/jaxb-api-2.2.9.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="CarsStorePersistenceUnit">
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        <class>store.Car</class>
+        <class>store.User</class>
+        <class>store.Order</class>
+        <properties>
+            <property name="eclipselink.jdbc.url" value="jdbc:derby:/home/tanya/IdeaProjects/CarsStore/CarsStoreDB"/>
+            <property name="eclipselink.jdbc.driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+
+            <!--<property name="eclipselink.ddl-generation" value="drop-and-create-tables" />-->
+            <property name="eclipselink.ddl-generation.output-mode" value="database" />
+
+            <property name="eclipselink.jdbc.user" value=""/>
+            <property name="eclipselink.jdbc.password" value=""/>
+        </properties>
+    </persistence-unit>
+</persistence>
